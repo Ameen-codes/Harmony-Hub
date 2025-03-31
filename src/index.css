@@ -1,0 +1,19 @@
+@import "tailwindcss";
+body{
+    background-color: black;
+    color: white;
+}
+
+.header{
+    position: sticky;
+    top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.transparent {
+    @apply
+     p-4;
+     background-color: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(1px);
+  }
