@@ -69,8 +69,6 @@ const Home = () => {
 
       </section>
 
-      
-
 
       <footer className="mt-12 p-6 text-center text-gray-400 border-t border-gray-700">
 
