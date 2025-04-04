@@ -3,10 +3,9 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/', 
+  base: '/Harmony-Hub/', 
   plugins: [
     react(),
     tailwindcss(),
-  ],
-  base: '/Harmony-Hub/',
+  ]
 });

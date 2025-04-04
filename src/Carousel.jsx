@@ -29,8 +29,8 @@ const Carousel = () => {
   return (
     <div 
       className="relative h-[300px] mx-auto"
-      onMouseEnter={() => setIsPaused(true)} // Pause on hover
-      onMouseLeave={() => setIsPaused(false)} // Resume when mouse leaves
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)} 
     >
      
       <img

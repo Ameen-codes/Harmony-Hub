@@ -9,18 +9,18 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Router>
-
+    <Router basename="/Harmony-Hub">
+      
       <Navbar />
 
-      <Routes >
-        
+      <Routes>
+
         <Route path="/" element={<Home />} />
-        
+
         <Route path="/MelodyMints" element={<MelodyMints />} />
 
       </Routes>
-
+      
     </Router>
   );
 }

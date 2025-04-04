@@ -1,5 +1,3 @@
-import { useState } from "react";
-import hh from './assets/hh.jpg'
 import Navbar from "./Navbar";
 
 const Home = () => {
