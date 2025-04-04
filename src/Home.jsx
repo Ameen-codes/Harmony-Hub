@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import hh from "./assets/hh.jpg"
 
 const Home = () => {
 
@@ -9,7 +10,7 @@ const Home = () => {
     <div className="min-h-screen bg-black text-white font-sans mt-[100px]">
 
       {/* Hero Section */}
-      <section className="text-center flex flex-col items-center justify-center min-h-[60vh] p-6 bg-[url('src/assets/hh.jpg')] bg-cover bg-center" >
+      <section className="text-center flex flex-col items-center justify-center min-h-[60vh] p-6  bg-cover bg-center" style={{backgroundImage:`url(${hh})`}}>
 
         <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 drop-shadow-lg py-2">
           🎵 The Future of Music Ownership is Here
