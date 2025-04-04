@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Item 1",
+      "price": 100,
+      "image": "https://example.com/images/item1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Item 2",
+      "price": 200,
+      "image": "https://example.com/images/item2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Item 3",
+      "price": 150,
+      "image": "https://example.com/images/item3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Item 4",
+      "price": 250,
+      "image": "https://example.com/images/item4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Item 5",
+      "price": 300,
+      "image": "https://example.com/images/item5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Item 6",
+      "price": 120,
+      "image": "https://example.com/images/item6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Item 7",
+      "price": 180,
+      "image": "https://example.com/images/item7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Item 8",
+      "price": 220,
+      "image": "https://example.com/images/item8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Item 9",
+      "price": 130,
+      "image": "https://example.com/images/item9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Item 10",
+      "price": 170,
+      "image": "https://example.com/images/item10.jpg"
+    }
+  ]
+  

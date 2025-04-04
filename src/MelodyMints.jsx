@@ -1,8 +1,5 @@
-import mm from './assets/mm.jpg';
-import xeus from './assets/xeus.jpg'
-import NFTCard from './NFTCard';
 import Carousel from './Carousel';
-
+import NFTCollection from './NFTCollection';
 
 
 const MelodyMints = () => {
@@ -30,12 +27,7 @@ const MelodyMints = () => {
 
         <Carousel/>
 
-        {/* 3x3 Grid Section */}
-        <div className="grid grid-cols-3 gap-4 mt-6 px-10">
-
-          <NFTCard/>
-
-        </div>
+        <NFTCollection/>
         
       </div>
 
