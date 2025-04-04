@@ -16,11 +16,11 @@ const Navbar = () => {
       {/* Navbar for larger screens */}
       <nav className="space-x-6 hidden md:flex items-center">
         
-        <Link to="/melodyMints" className="hover:text-yellow-400 focus:text-blue-500  transition-colors">Melody Mints</Link>
+        <Link to="/MelodyMints" className="hover:text-yellow-400 focus:text-blue-500  transition-colors">Melody Mints</Link>
 
-        <Link to="/chordCollective" className="hover:text-yellow-400 transition-colors">Chord Collective</Link>
+        <Link to="/ChordCollective" className="hover:text-yellow-400 transition-colors">Chord Collective</Link>
 
-        <Link to="/soundStream" className="hover:text-yellow-400 transition-colors">Sound Stream</Link>
+        <Link to="/SoundStream" className="hover:text-yellow-400 transition-colors">Sound Stream</Link>
 
         <input type="search" name="" id="" placeholder="search..." className="border-red-400" />
         <a href="#" className="font-bold">Premium</a>
@@ -54,11 +54,11 @@ const Navbar = () => {
         
         <nav className="space-y-4">
 
-          <Link to="/melodyMints" className="block hover:text-yellow-400 transition-colors">Melody Mints</Link>
+          <Link to="/MelodyMints" className="block hover:text-yellow-400 transition-colors">Melody Mints</Link>
 
-          <Link to="/chordCollective" className="block hover:text-yellow-400 transition-colors">Chord Collective</Link>
+          <Link to="/ChordCollective" className="block hover:text-yellow-400 transition-colors">Chord Collective</Link>
 
-          <Link to="/soundStream" className="block hover:text-yellow-400 transition-colors">Sound Stream</Link>
+          <Link to="/SoundStream" className="block hover:text-yellow-400 transition-colors">Sound Stream</Link>
 
           <input type="search" name="" id="" placeholder="search..." className="border-red-400 w-full" />
 
