@@ -10,8 +10,6 @@ function App() {
 
   return (
     <Router basename="/Harmony-Hub">
-      
-      <Navbar />
 
       <Routes>
 

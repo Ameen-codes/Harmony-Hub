@@ -3,7 +3,7 @@ import testdata from "./testdata.json";
 
 const NFTCollection = () => {
   return (
-    <div className="flex flex-wrap gap-3 py-5">
+    <div className="NFTCollection flex flex-wrap gap-7 py-5 px-5">
 
       {testdata.map((item) => (
         <NFTCard

@@ -21,7 +21,7 @@ const Carousel = () => {
   // Auto-play with interval
   useEffect(() => {
     if (!isPaused) {
-      const interval = setInterval(nextSlide, 3000); // Change every 3 seconds
+      const interval = setInterval(nextSlide, 3000); 
       return () => clearInterval(interval);
     }
   }, [isPaused]);
